@@ -140,8 +140,7 @@ html {
 .header {
   width: 100%;
   height: calc(100vh - 7rem);
-  background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)),
-    url(images/header-bg.jpg) center no-repeat;
+  background: url(images/header-bg.jpg) center no-repeat;
   background-size: cover;
   position: relative;
   perspective: 100rem;
