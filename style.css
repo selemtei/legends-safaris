@@ -139,7 +139,7 @@ html {
 /* header */
 .header {
   width: 100%;
-  height: calc(100vh - 7rem);
+  height: 100vh;
   background: url(images/header-bg.jpg) center no-repeat;
   background-size: cover;
   position: relative;
