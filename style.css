@@ -557,6 +557,12 @@ html {
   letter-spacing: 0.2rem;
   margin-top: 5rem;
 }
+.footer-location {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.2rem;
+}
 /* End of the footer */
 
 /* mediaquery */
