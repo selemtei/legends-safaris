@@ -170,11 +170,18 @@
       <!-- Contact -->
       <section class="contact">
         <h1 class="contact-heading">Contact Us</h1>
-        <form class="contact-form center">
+        <form
+          name="contact-form"
+          method="POST"
+          action="https://getform.io/f/beb63aa9-74b0-4899-9e51-a84b7af99c1a"
+          class="contact-form center"
+        >
           <div class="input-group">
             <label>Full Name*</label>
             <input
               type="text"
+              name="fullName"
+              required
               class="contact-input"
               placeholder="Enter Your Name"
             />
@@ -184,6 +191,8 @@
               <label>Email*</label>
               <input
                 type="email"
+                name="email"
+                required
                 class="contact-input"
                 placeholder="Enter Your Email"
               />
@@ -192,19 +201,30 @@
               <label>Phone Number*</label>
               <input
                 type="text"
+                name="phoneNo"
+                required
                 class="contact-input"
                 placeholder="Enter Your Number"
               />
             </div>
           </div>
           <div class="input-group">
-            <label>Message</label>
+            <label>Message*</label>
             <textarea
+              name="message"
+              required
               class="form-textarea"
               placeholder="Your Message"
-            ></textarea>
+            >
+            </textarea>
           </div>
-          <input type="submit" value="submit" class="form-btn" />
+          <input
+            id="submit-btn"
+            type="submit"
+            value="submit"
+            class="form-btn"
+            onclick="submitContactForm()"
+          />
         </form>
       </section>
       <!-- End of the Contact -->

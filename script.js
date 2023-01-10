@@ -25,3 +25,9 @@ Array.from(
   })
 );
 
+function submitContactForm(){
+  var contactForm = document.getElementsByName('contact-form')[0];
+  contactForm.submit();
+  contactForm.reset();
+  return false;
+}
